@@ -1,7 +1,11 @@
 package a.koronkiewicz;
 
+import a.koronkiewicz.services.MenuService;
+
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+
+		MenuService menuService = new MenuService();
+		menuService.showMainMenu();
 	}
 }
